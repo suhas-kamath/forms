@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="formbox">
+            <div class="buttonbox">
+                <div id="btn"></div>
+                    <button type="button" class="tbtn" onclick="login()">Login</button>
+                    <button type="button" class="tbtn" onclick="signup()">SignUp</button>
+                
+            </div>
+            <div class="social">
+                <img src="IMAGES/fb.png" >
+                <img src="IMAGES/tw.png" >
+                <img src="IMAGES/gp.png" >
+            </div>
+            <form action="" id="login" class="inputgroup">
+                <input type="text" class="inputfield" placeholder="USER ID" required>
+                <input type="password" class="inputfield" placeholder="PASSWORD" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submitbtn">Login</button>
+            </form>
+            <form action="" id="signup" class="inputgroup">
+                <input type="text" class="inputfield" placeholder="USER ID" required>
+                <input type="text" class="inputfield" placeholder="EMAIL ID" required>
+                <input type="password" class="inputfield" placeholder="PASSWORD" required>
+                <input type="checkbox" class="checkbox"><span>I agree to terms and conditions</span>
+                <button type="submit" class="submitbtn">Login</button>
+            </form>
+        </div>
+    </div> 
+
+ 
+</body>
+
+</html>
